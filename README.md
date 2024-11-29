@@ -22,12 +22,12 @@ O projeto **Symbolic-AI** é uma implementação de algoritmos de busca simbóli
 ## Instalação
 
 1. Clone este repositório:
-````bash
+  ````
    git clone <URL_DO_REPOSITORIO>
    cd Symbolic-AI
-````
+  ````
 3. Crie e ative um ambiente virtual (opcional, mas recomendado):
-   ````bash
+   ````
    python -m venv venv
    source venv/bin/activate  # Linux/MacOS
    venv\Scripts\activate     # Windows
@@ -37,9 +37,9 @@ O projeto **Symbolic-AI** é uma implementação de algoritmos de busca simbóli
    python main.py
 
 7. Execute os scripts individualmente para testar algoritmos específicos:
-  ````
+   ````
    python src/a_star_algorithm.py
-  ````
+   ````
 8. Teste a busca em largura:
    ````
    python src/bfs.py
