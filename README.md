@@ -21,25 +21,29 @@ O projeto **Symbolic-AI** é uma implementação de algoritmos de busca simbóli
 
 ## Instalação
 
-```bash
 1. Clone este repositório:
+````bash
    git clone <URL_DO_REPOSITORIO>
    cd Symbolic-AI
-
-2. Crie e ative um ambiente virtual (opcional, mas recomendado):
+````
+3. Crie e ative um ambiente virtual (opcional, mas recomendado):
+   ````bash
    python -m venv venv
    source venv/bin/activate  # Linux/MacOS
    venv\Scripts\activate     # Windows
-
-3. Para executar o projeto principal:
+  
+5. Para executar o projeto principal:
+   ````
    python main.py
 
-4. Execute os scripts individualmente para testar algoritmos específicos:
-   Teste o A*:
+7. Execute os scripts individualmente para testar algoritmos específicos:
+  ````
    python src/a_star_algorithm.py
-
-   Teste a busca em largura:
+  ````
+8. Teste a busca em largura:
+   ````
    python src/bfs.py
 
-5. Geração de Labirintos:
+8. Geração de Labirintos:
+   ````
    python src/generate_maze.py
