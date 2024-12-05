@@ -26,12 +26,18 @@ O projeto **Symbolic-AI** é uma implementação de algoritmos de busca simbóli
    git clone <URL_DO_REPOSITORIO>
    cd Symbolic-AI
    ````
-3. Crie e ative um ambiente virtual (opcional, mas recomendado):
+3. Crie e ative um ambiente virtual (opcional, mas recomendado) e instale as dependências:
    ````
    python -m venv venv
+   ````
+   ````
    source venv/bin/activate  # Linux/MacOS
    venv\Scripts\activate     # Windows
-  
+   ````
+   ````
+   pip install -r requirements.txt 
+   ````
+
 5. Para executar o projeto principal:
    ````
    python main.py

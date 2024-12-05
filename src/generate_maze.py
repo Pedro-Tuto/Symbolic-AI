@@ -10,7 +10,7 @@ def generate_maze():
     # Obstáculos aleatórios ('O')
     # random.sample vai selecionar n elementos aleatórios de uma lista.
     # Neste caso, irá selecionar entre 10 e 25 números dentre as posições da matriz, com exceção de 0,0 e 9,9
-    obstaculos = random.sample([(i, j) for i in range(10) for j in range(10) if (i, j) not in [(0, 0), (9, 9)]], random.randint(25, 30))
+    obstaculos = random.sample([(i, j) for i in range(10) for j in range(10) if (i, j) not in [(0, 0), (9, 9)]], random.randint(10, 25))
     for i, j in obstaculos:
         matriz[i][j] = 'O'
 
